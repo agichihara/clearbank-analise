@@ -1,0 +1,26 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-01-05,CLI001,credito,3500.00,Salário janeiro,salario
+2,2026-01-08,CLI002,debito,180.50,Supermercado,compra
+3,2026-01-12,CLI003,debito,95.90,Farmácia,saude
+4,2026-01-15,CLI001,debito,1200.00,Aluguel,moradia
+5,2026-01-20,CLI004,credito,12500.00,Recebimento de serviço,servico
+6,2026-01-25,CLI002,debito,320.00,Conta de luz,conta
+7,2026-02-03,CLI001,credito,3500.00,Salário fevereiro,salario
+8,2026-02-06,CLI003,debito,99.90,Streaming,assinatura
+9,2026-02-10,CLI002,debito,450.75,Compras domésticas,compra
+10,2026-02-14,CLI005,credito,15000.00,Transferência de alto valor,transferencia
+11,2026-02-18,CLI004,debito,210.00,Internet,conta
+12,2026-02-23,CLI001,debito,275.40,Combustível,transporte
+13,2026-03-01,CLI001,credito,3500.00,Salário março,salario
+14,2026-03-04,CLI002,debito,230.00,Supermercado,compra
+15,2026-03-09,CLI003,debito,145.60,Consulta médica,saude
+16,2026-03-12,CLI004,credito,2200.00,Projeto freelance,servico
+17,2026-03-18,CLI005,debito,680.00,Manutenção do veículo,transporte
+18,2026-03-27,CLI001,debito,89.90,Aplicativo de música,assinatura
+,2026-01-22,CLI006,credito,500.00,Teste com ID vazio,teste
+x20,2026-02-11,CLI006,debito,75.00,Teste com ID não numérico,teste
+21,2026-02-12,,debito,200.00,Teste sem cliente,teste
+22,2026-02-30,CLI007,credito,100.00,Teste com data inexistente,teste
+23,2026-03-14,CLI007,transferencia,150.00,Teste com tipo inválido,teste
+24,2026-03-15,CLI008,debito,abc,Teste com valor não numérico,teste
+25,2026-03-16,CLI008,debito,0,Teste com valor zero,teste
